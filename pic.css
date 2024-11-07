@@ -1,0 +1,35 @@
+body{
+    background-color: #b9c1cd;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+img{
+    height: 220px;
+    width: 150px;
+}
+.container{
+    width: 150px;
+    height: 300px;
+    position: relative;
+    transform-style: preserve-3d;
+    transform: perspective(1000px);
+    animation: 3s ease-in 1s infinite reverse both running slidein;
+    cursor: auto;
+}
+.container span{
+position: absolute;
+width: 100%;
+height: 100%;
+transform-style: preserve-3d;
+transform: rotateY(calc(var(--i)*45deg))translateZ(500px);;
+
+-webkit-box-reflect: below 0 linear-gradient(transparent, white);
+}
+.container span img{
+    position: relative;
+    border-radius: 10px;
+    border: 6px ridge #ccc;
+}
+
