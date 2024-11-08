@@ -4,6 +4,6 @@
 	<title>README PRACTICE</title>
  /head>
 <body>
-	<p HOOREEN FATHIMA ></p>
+	HOOREEN FATHIMA
 </body>
 </html>
