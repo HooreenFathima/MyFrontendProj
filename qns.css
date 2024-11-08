@@ -1,0 +1,22 @@
+body{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: pink;
+}
+button{
+    padding: 6px 12px;
+    border-radius: 5px;
+    margin-left: 3px;
+    color: darkred;
+    font-weight: 700;
+}
+p{
+    font-weight: 900;
+    font-size: 80px;
+}
+#yes::action{
+    background-color: orange;
+    color:yellow;
+}
